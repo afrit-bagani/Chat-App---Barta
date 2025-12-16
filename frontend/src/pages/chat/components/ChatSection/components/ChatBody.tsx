@@ -7,7 +7,7 @@ import { RiCloseFill } from "react-icons/ri";
 
 // Local import
 import type { IMesaage } from "@/types";
-import { useChatStore, useUserStore } from "@/store";
+import { useChatStore } from "@/store";
 import { GET_ALL_MESSAGE_ROUTE } from "@/utils/constant";
 import { Button } from "@/components/ui/button";
 import FileDisplay from "./FileDisplay";

@@ -21,11 +21,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 // Local Import
 import { useUserStore } from "@/store";
-import {
-  DELETE_PROFILE_PICTURE,
-  LOGOUT_ROUTE,
-  UPDATE_PROFILE_ROUTE,
-} from "@/utils/constant";
+import { DELETE_PROFILE_PICTURE, UPDATE_PROFILE_ROUTE } from "@/utils/constant";
 import { toast } from "sonner";
 
 export const ProfileAction = async ({ request }: { request: Request }) => {
