@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npx tsc -b",
     "dev": "dotenv -e .env.development -- tsx watch src/index.ts",
-    "start": "dotenv -e .env.production -- npm run build && node dist/index.js"
+    "start": "npm run build && dotenv -e .env.production -- node dist/index.js"
   },
   "type": "module",
   "dependencies": {
