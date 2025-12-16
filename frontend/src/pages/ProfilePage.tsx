@@ -132,11 +132,11 @@ export default function Profile() {
     }
   };
 
-  const handleLogout = async () => {
-    await fetch(LOGOUT_ROUTE, { credentials: "include" });
-    setUser(null);
-    navigate("/signin");
-  };
+  // const handleLogout = async () => {
+  //   await fetch(LOGOUT_ROUTE, { credentials: "include" });
+  //   setUser(null);
+  //   navigate("/signin");
+  // };
 
   const inputCSS =
     "mt-1 w-full px-4 py-2 text-white focus:text-black border border-gray-400 rounded-lg shadow-sm outline-none focus:bg-blue-50 focus:border-blue-500";

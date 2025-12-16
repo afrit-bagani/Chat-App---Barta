@@ -28,7 +28,7 @@ export default function ChatBody() {
     setFileDownloadProgress,
     fileDownloadProgress,
   } = useChatStore();
-  const user = useUserStore().user;
+  // const user = useUserStore().user;
 
   useEffect(() => {
     const getMessages = async () => {

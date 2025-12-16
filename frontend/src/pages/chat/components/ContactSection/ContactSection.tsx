@@ -230,9 +230,8 @@ function NewDMButton({
     </>
   );
 }
-function CreateChannel({
-  setSelectedChat,
-}: {
+function CreateChannel({}: // setSelectedChat,
+{
   setSelectedChat: Dispatch<SetStateAction<boolean>>;
 }) {
   const [contacts, setContacts] = useState([]);

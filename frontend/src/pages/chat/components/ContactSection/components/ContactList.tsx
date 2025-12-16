@@ -14,7 +14,7 @@ export default function ContactList({
   setSelectedChat: Dispatch<SetStateAction<boolean>>;
 }) {
   const {
-    selectedChatType,
+    // selectedChatType,
     setSelectedChatType,
     selectedChatData,
     setSelectedChatData,
